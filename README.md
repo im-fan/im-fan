@@ -1,37 +1,62 @@
-# Yayler
+<p align="center">
+  <img src="assets/banner.png" width="100%" alt="Yayler. IT worker. Explorer of new things.">
+</p>
 
-杭州。做本地优先的开发工具。
+IT worker. Explorer of new things. I build local-first tools in Hangzhou.
 
-博客：[im-fan.github.io](https://im-fan.github.io/)
+<p>
+  <a href="https://im-fan.github.io/"><img src="assets/icon-web.png" width="18" height="18" alt=""> Blog</a>
+  &nbsp;&nbsp;
+  <a href="mailto:wyf3634@163.com"><img src="assets/icon-mail.png" width="18" height="18" alt=""> wyf3634@163.com</a>
+  &nbsp;&nbsp;
+  <img src="assets/icon-pin.png" width="18" height="18" alt=""> Hangzhou
+</p>
 
-## 项目
+## Selected work
 
-### [skill-manage](https://github.com/im-fan/skill-manage)
+<table>
+  <tr>
+    <td width="88">
+      <a href="https://github.com/im-fan/skill-manage"><img src="assets/icon-skill.png" width="72" alt="skill-manage icon"></a>
+    </td>
+    <td>
+      <a href="https://github.com/im-fan/skill-manage"><strong>skill-manage</strong></a><br>
+      Local skill manager for Codex, Claude Code, Hermes, and OpenClaw. One library, mounted in place.<br>
+      <code>npm install -g @im-fan/skill-manage</code>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/im-fan/local-workbench"><img src="assets/icon-workbench.png" width="72" alt="local-workbench icon"></a>
+    </td>
+    <td>
+      <a href="https://github.com/im-fan/local-workbench"><strong>local-workbench</strong></a><br>
+      Edit files and run a shell on a remote container as if they were local. No SSH client. Node.js standard library only.<br>
+      <code>./start.sh start</code>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/im-fan/py-tool"><img src="assets/icon-pytool.png" width="72" alt="py-tool icon"></a>
+    </td>
+    <td>
+      <a href="https://github.com/im-fan/py-tool"><strong>py-tool</strong></a><br>
+      Python app manager: card list, search, tag filters, SQLite, and an in-browser Monaco editor.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/im-fan/GitNexus"><img src="assets/icon-gitnexus.png" width="72" alt="GitNexus icon"></a>
+    </td>
+    <td>
+      <a href="https://github.com/im-fan/GitNexus"><strong>GitNexus</strong></a><br>
+      Code knowledge graph. I committed <code>gitnexus auto-sync</code> as <strong>Yayler &lt;wyf3634@163.com&gt;</strong>. It is merged upstream in <a href="https://github.com/abhigyanpatwari/GitNexus/pull/2493">#2493</a>: pull configured remotes over SSH on an interval, then analyze new commits.
+    </td>
+  </tr>
+</table>
 
-本地 Agent Skill 管理。一份技能库，挂到 Codex、Claude Code、Hermes、OpenClaw。
-
-```bash
-npm install -g @im-fan/skill-manage
-```
-
-### [local-workbench](https://github.com/im-fan/local-workbench)
-
-让操作远端容器像操作本地文件一样编辑，无需 SSH。文件浏览、文本编辑和 Shell 在同一个页面，只使用 Node.js 标准库。
-
-```bash
-./start.sh start
-```
-
-### [py-tool](https://github.com/im-fan/py-tool)
-
-Python 应用管理：卡片列表、按名称搜索、按标签筛选、SQLite 持久化、Monaco 在线编辑。
-
-### [GitNexus](https://github.com/im-fan/GitNexus)
-
-代码知识图谱。`gitnexus auto-sync` 由我提交，commit 身份是 **Yayler \<wyf3634@163.com\>**，已合入上游 [#2493](https://github.com/abhigyanpatwari/GitNexus/pull/2493)。
-
-它按配置间隔，用 SSH 拉取指定远端仓库并分析新提交。
-
-## 联系
-
-wyf3634@163.com
+<p>
+  <a href="https://github.com/im-fan/skill-manage">
+    <img src="assets/skill-manage.jpg" width="100%" alt="Skill Manager overview">
+  </a>
+</p>
